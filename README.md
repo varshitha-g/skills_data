@@ -1,37 +1,42 @@
-# skills_data
-Task:
+# Skills Data Analysis Project
 
-you need to add an extra column designation
+This repository contains datasets and analysis scripts related to skills data. The project aims to explore patterns, trends, and insights within skills data, focusing on relevant industries, popular skill sets, and evolving demands in the job market.
 
-and based on student skills you have to find a particular student is suitable for machine learning developer designation or web developer
+## Project Overview
 
-I have provided a list of machine learning skills and web developer skills
+In this project, I use data analysis and visualization techniques to uncover insights within a dataset of skills. The analysis provides valuable information for identifying essential skills for different roles and understanding emerging trends.
 
-if the student has more than or equal to 3 skills of machine learning or web development then assign his/her designation according to skills
 
-at the end of the row, you also need to total the number of skills
+## Installation
 
-and then convert your result into an excel file
+To replicate this project, you'll need Python 3 and the following libraries:
 
-Note:
-There is one twist that I have added to finding the designation of student
+pandas
 
-web_devloper_skills = [
-    'django',
-    'html',
-    'css',
-    'nodejs',
-    'reactjs',
-    'nodejs',
-    'flask',
-    'laravel'
-]
+numpy
 
-machine_learning_skills = [
-    'nosql',
-    'pandas',
-    'numpy',
-    'matpotlib',
-    'seabron',
-    'scipy'
-]
+matplotlib
+
+seaborn
+
+scikit-learn
+
+### Clone this repository:
+                git clone https://github.com/varshitha-g/skills_data.git
+Navigate to the project directory and explore the Jupyter notebooks in the notebooks/ folder.
+## Analysis Highlights
+
+This project includes:
+
+Data Cleaning & Preprocessing: Handling missing values, data transformation, and feature engineering.
+
+Exploratory Data Analysis (EDA): Statistical analysis, distribution checks, and correlation analysis.
+
+Visualizations: Detailed visualizations using Matplotlib and Seaborn to represent key insights on skills demand, skill types, and industry trends.
+## Results & Insights
+
+Skills Demand: Identification of high-demand skills across various domains.
+
+Trends Analysis: Analysis of emerging skill sets over time.
+
+Industry-Specific Skills: Insight into specific skills that are crucial within different industries.
